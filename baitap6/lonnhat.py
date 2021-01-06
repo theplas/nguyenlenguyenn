@@ -8,9 +8,9 @@ for n in range(i):
 vitri = 0
 latd = danh_sach[vitri]
 for n in range(i):
-    if danh_sach[n] < latd:
+    if danh_sach[n] > latd:
         latd = danh_sach[n]
         vitri = n
 print('')
-print('so nho nhat la',latd)
-print('vi tri so thuc la',vitri)
+print('so lon nhat la',latd)
+#print('vi tri so thuc la',vitri)
